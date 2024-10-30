@@ -9,7 +9,9 @@
     "auto-install":True,
     "license": "LGPL-3",
     'data': [
-        "security/ir.model.access.csv"
+        "security/ir.model.access.csv",
+        "views/property_view.xml",
+        "views/menu_views.xml",
     ],
 
 }
