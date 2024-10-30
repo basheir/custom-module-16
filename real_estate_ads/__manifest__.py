@@ -1,13 +1,15 @@
 {
-    "name": "Real Estate Ads",
-    "description": "This is for real estate to see available property",
+    "name": "Real estate ads",
+    "description": "This is real estate ads module for development",
+    "category": "sales",
     "author": "Bashir Mahad",
     "website": "course.haybis.com",
     'installable': True,
+    "application":True,
+    "auto-install":True,
     "license": "LGPL-3",
     'data': [
-        'views/custom_model_views.xml',
-        'views/menu_views.xml',
+        "security/ir.model.access.csv"
     ],
 
 }
