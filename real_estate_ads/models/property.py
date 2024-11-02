@@ -10,6 +10,7 @@ class Property(models.Model):
     description = fields.Text(string="Description")
     postcode = fields.Char(string="Post Code")
     date_availability = fields.Date(string="Available From")
+    best_offer = fields.Float(string="Best Offer")
     expected_price = fields.Float(string="Expected Price")
     selling_price = fields.Float(string="Selling Price")
     bedrooms = fields.Integer(string="Bedrooms")
