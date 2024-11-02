@@ -25,3 +25,9 @@ class Property(models.Model):
         ('east', 'East'),
         ('west', 'West')
     ], string="Garden Orientation", default='north')
+
+
+class PropertyType(models.Model):
+    _name = "estate.property.type"
+
+    name = fields.Char(string="Name", required=True)
