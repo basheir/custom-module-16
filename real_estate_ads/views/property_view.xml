@@ -8,6 +8,7 @@
                 <tree>
                     <field name="name"/>
                     <field name="postcode"/>
+                    <field name="type_id"/>
                     <field name="date_availability"/>
                     <field name="selling_price"/>
                     <field name="best_offer"/>
@@ -23,8 +24,10 @@
                     <sheet>
                         <group>
                             <field name="name"/>
+                             <field name="type_id"/>
                             <group>
                                 <field name="postcode"/>
+
                                 <field name="date_availability"/>
                             </group>
                             <group>
