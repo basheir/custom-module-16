@@ -30,5 +30,13 @@ class Property(models.Model):
 
 class PropertyType(models.Model):
     _name = "estate.property.type"
+    _description = "Property type"
+
+    name = fields.Char(string="Name", required=True)
+
+
+class PropertyTag(models.Model):
+    _name = "estate.property.tag"
+    _description = "Property Tag"
 
     name = fields.Char(string="Name", required=True)
