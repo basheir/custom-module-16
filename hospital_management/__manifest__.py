@@ -7,6 +7,8 @@
     "website": "course.haybis.com",
     "installable": True,
     "data":[
-        "views/menu.xml"
+        "views/patient_view.xml",
+        "views/menu.xml",
+        "security/ir.model.access.csv"
     ]
 }
