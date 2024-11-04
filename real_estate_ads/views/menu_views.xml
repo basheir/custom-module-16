@@ -8,5 +8,8 @@
             <menuitem  id="menu_property_type" name="Property Types" action="real_estate_ads.action_property_type" />
             <menuitem  id="menu_property_tag" name="Property Tags" action="real_estate_ads.action_property_tag" />
         </menuitem>
+        <menuitem id="menu_property_ads_customers" name="Customer lists">
+               <menuitem  id="menu_property_type" name="Property Types 2" action="real_estate_ads.action_property_type" />
+        </menuitem>
     </menuitem>
 </odoo>
