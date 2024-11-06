@@ -21,16 +21,20 @@
             <form string="Patient">
                 <sheet>
                     <group>
-                    <group>
-                        <field name="name"/>
-                        <field name="date_of_birth"/>
+                        <group>
+                            <field name="name"/>
+                            <field name="date_of_birth"/>
+                        </group>
+                        <group>
+                            <field name="gender"/>
+                            <field name="phone"/>
+                        </group>
                     </group>
-                    <group>
-                        <field name="gender"/>
-                        <field name="phone"/>
-                    </group>
-                </group>
                 </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
             </form>
         </field>
     </record>

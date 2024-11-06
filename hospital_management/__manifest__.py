@@ -6,7 +6,8 @@
     "author": "Bashir Mahad",
     "website": "course.haybis.com",
     "installable": True,
-    "data":[
+    "depends": ["mail"],
+    "data": [
         "views/patient_view.xml",
         "views/menu.xml",
         "security/ir.model.access.csv"
