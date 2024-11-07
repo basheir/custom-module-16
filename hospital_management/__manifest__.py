@@ -9,6 +9,7 @@
     "depends": ["mail"],
     "data": [
         "views/patient_view.xml",
+        "views/patient_readonly_view.xml",
         "views/menu.xml",
         "security/ir.model.access.csv"
     ]
